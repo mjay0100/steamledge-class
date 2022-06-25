@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section {
+  margin: 0.75rem 4rem;
+  padding: 0.5rem;
+  align-items: center;
+}
