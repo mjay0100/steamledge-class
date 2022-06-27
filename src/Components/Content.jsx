@@ -1,3 +1,6 @@
+import woman from "../images/woman.png";
+import { BsPersonFill } from "react-icons/bs";
+
 const Content = () => {
   return (
     <section className="flex  w-[70%] mx-auto mb-[4rem]  relative">
@@ -24,15 +27,13 @@ const Content = () => {
             Learn more
           </button>
         </div>
+
+       
       </div>
       <div className="h-[294px] w-[200px] bg-lime-400 rounded-t-3xl rounded-b-2xl absolute left-[60%] right-0 top-[200px] rotate-12 "></div>
       <div className="h-[400px] w-[200px] bg-gray-900 rounded-t-3xl rounded-b-2xl absolute left-[80%] right-0 top-[100px] rotate-12 "></div>
 
-      <img
-        className="z-10 w-1/2"
-        src="https://o.remove.bg/downloads/a8181ed3-2e15-45d1-97c5-fd1463d8bbe6/istockphoto-1311055917-170667a-removebg-preview.png"
-        alt=""
-      />
+      <img className="z-10 w-1/2" src={woman} alt="" />
     </section>
   );
 };
