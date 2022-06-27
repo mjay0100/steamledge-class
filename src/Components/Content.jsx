@@ -1,6 +1,6 @@
 import woman from "../images/woman.png";
 
-import Card from './Card'
+import Card from "./Card";
 
 const Content = () => {
   return (
@@ -29,12 +29,12 @@ const Content = () => {
           </button>
         </div>
 
-        <Card/>
+        <Card />
       </div>
-      <div className="h-[294px] w-[200px] bg-lime-400 rounded-t-3xl rounded-b-2xl absolute left-[60%] right-0 top-[200px] rotate-12 "></div>
-      <div className="h-[400px] w-[200px] bg-gray-900 rounded-t-3xl rounded-b-2xl absolute left-[80%] right-0 top-[100px] rotate-12 "></div>
+      <div className="h-[294px] w-[200px] bg-lime-400 rounded-t-3xl rounded-b-2xl absolute left-[60%] right-0 top-[180px] rotate-12 "></div>
+      <div className="h-[400px] w-[200px] bg-gray-900 rounded-t-3xl rounded-b-2xl absolute left-[80%] right-0 top-[89px] rotate-12 "></div>
 
-      <img className="z-10 w-1/2" src={woman} alt="" />
+      <img className="w-1/2 absolute right-0" src={woman} alt="" />
     </section>
   );
 };
