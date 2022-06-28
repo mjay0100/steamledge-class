@@ -17,7 +17,7 @@ const Navbar = () => {
       <button className="hidden lg:block py-2 px-3 rounded-md border hover:bg-gray-800 hover:text-white transition duration-500 border-slate-200">
         Get started
       </button>
-      <span className="absolute right-0 md:hidden text-2xl">
+      <span className="absolute right-0 md:hidden text-2xl cursor-pointer">
         <FaBars />
       </span>
     </section>
