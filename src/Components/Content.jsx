@@ -1,10 +1,10 @@
 import woman from "../images/woman.png";
-import ImageBg from './ImageBg'
+import ImageBg from "./ImageBg";
 import Card from "./Card";
 
 const Content = () => {
   return (
-    <section className="flex  w-[70%] mx-auto mb-[4rem]  relative">
+    <section className="md:flex  w-[70%] mx-auto mb-[4rem]  relative">
       <div className="mt-[4rem] ">
         <div>
           <p className="mb-2">World class education</p>
@@ -16,8 +16,8 @@ const Content = () => {
             either field
           </h1>
           <p className="mb-4">
-            Edcamp helps to gain skills for jobs relevant to the market <br />{" "}
-            over 1000 courses for both teams and individuals
+            Edcamp helps to gain skills for jobs relevant <br /> to the market
+            over 1000 courses for <br /> both teams and individuals
           </p>
         </div>
         <div className="flex flex-start gap-[1rem] mb-6">
@@ -28,12 +28,11 @@ const Content = () => {
             Learn more
           </button>
         </div>
-
         <Card />
       </div>
-     <ImageBg/>
+      <ImageBg />
 
-      <img className="w-1/2 absolute right-0" src={woman} alt="" />
+      <img className="md:absolute  right-0" src={woman} alt="" />
     </section>
   );
 };

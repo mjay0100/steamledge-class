@@ -2,8 +2,8 @@ import { BsPersonFill } from "react-icons/bs";
 
 const Card = () => {
   return (
-    <div className="flex gap-[2rem] z-10 pointer">
-      <div className="flex gap-[1rem] items-center mt-[2rem] p-4 rounded-md shadow-sm shadow-slate-500">
+    <div className="block md:flex gap-[2rem] z-10 pointer">
+      <div className="justify-center md:justify-start flex gap-[1rem] items-center mt-[2rem] p-4 rounded-md shadow-sm shadow-slate-500">
         <div className="flex flex-col gap-4">
           <h1 className="text-gray-800">Rate your experience</h1>
           <input type="range" name="" id="" />
@@ -12,7 +12,7 @@ const Card = () => {
           <BsPersonFill />
         </span>
       </div>
-      <div className="flex gap-[1.2rem] items-center mt-[2rem] p-4 rounded-md shadow-sm shadow-slate-500 z-10 bg-white">
+      <div className="justify-center md:justify-start flex gap-[1.2rem] items-center mt-[2rem] p-4 rounded-md shadow-sm shadow-slate-500 z-10 bg-white">
         <div className="flex gap-2 items-baseline">
           <div className="w-[10px] h-[30px] bg-gray-800 rounded-t-2xl"></div>
           <div className="w-[10px] h-[45px] bg-yellow-500 rounded-t-2xl"></div>
